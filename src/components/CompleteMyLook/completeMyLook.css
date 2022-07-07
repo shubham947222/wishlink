@@ -1,4 +1,7 @@
 .CompleteMyLookComp {
+  position: relative;
+  margin-top: -1.2rem;
+  z-index: 200;
   background-color: white;
   font: "Poppins";
 }

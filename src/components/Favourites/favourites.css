@@ -1,10 +1,13 @@
 .Favourites {
+  position: relative;
+
   font: "Poppins";
   display: flex;
   flex-direction: column;
   background-color: white;
   width: 400px;
   min-height: 55rem;
+  z-index: 200;
 }
 
 .para {
