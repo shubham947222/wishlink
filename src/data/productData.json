@@ -7,7 +7,7 @@
     "price": "₹2500",
     "discount": "20% OFF",
     "actualPrice": "2,000",
-    "extra offer": "true"
+    "extraOffer": true
   },
   {
     "id": 2,
@@ -17,6 +17,6 @@
     "price": "₹2,500",
     "discount": "20% OFF",
     "actualPrice": "2,000",
-    "extra offer": false
+    "extraOffer": false
   }
 ]
