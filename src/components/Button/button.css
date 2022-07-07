@@ -1,0 +1,20 @@
+.shopBtn {
+  width: 6rem;
+  background-color: #0a507c;
+  border: none;
+  color: white;
+  border-radius: 5rem;
+  height: 2rem;
+  font-size: 0.9rem;
+  align-items: center;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btntext {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}

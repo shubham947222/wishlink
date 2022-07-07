@@ -1,0 +1,51 @@
+.VideoComp {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: red; */
+  /* overflow: hidden; */
+  /* width: 50%; */
+  bottom: 13%;
+  /* z-index: -100; */
+  /* position: fixed; */
+
+  overflow: scroll;
+  max-width: 450px;
+  scroll-snap-type: y mandatory;
+}
+.video {
+  width: 100%;
+
+  height: 500px;
+  /* transform: translateX(50%) translateY(-50%); */
+  object-fit: cover;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.VideoComp::-webkit-scrollbar {
+  display: none;
+}
+
+.playPauseSvg {
+  position: absolute;
+  width: 50px;
+  fill: #fff;
+  margin-top: -5.5rem;
+  /* height: 40px; */
+}
+/* .closet {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+} */
+h2 {
+  position: absolute;
+  bottom: 8%;
+  right: 28%;
+  color: white;
+  font-weight: bold;
+}

@@ -1,0 +1,24 @@
+.CompleteMyLook {
+  background-color: white;
+}
+summary {
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  background-color: rgb(7, 185, 255);
+  padding: 1.2rem;
+  margin-bottom: 1.2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.row1 {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.row2 {
+  display: flex;
+}
+.products {
+  display: flex;
+  flex-direction: column;
+}

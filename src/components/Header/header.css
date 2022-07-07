@@ -1,0 +1,22 @@
+.Header {
+  background-color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8vh;
+  font-family: "poppins";
+  max-width: 450px;
+  /* z-index: 1; */
+}
+
+.back {
+  height: 15px;
+  /* width: 25px; */
+  margin-left: -3rem;
+  margin-right: 1rem;
+}
+
+.blueTick {
+  height: 25px;
+}

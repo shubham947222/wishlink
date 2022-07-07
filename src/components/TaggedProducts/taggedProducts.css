@@ -1,0 +1,25 @@
+.TaggedProducts {
+  margin-top: -5px;
+  display: flex;
+  flex-direction: column;
+  color: #333333;
+  /* background-color: pink; */
+  /* justify-content: space-between; */
+  border-radius: 1rem;
+  background-color: white;
+
+  /* background-color: blueviolet; */
+  width: 100%;
+  height: 25rem;
+  /* z-index: 500; */
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: rebeccapurple; */
+}
+
+h3 {
+  margin-left: 1rem;
+}

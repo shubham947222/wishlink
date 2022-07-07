@@ -1,0 +1,75 @@
+.ProductsCard {
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  align-items: center;
+  justify-content: center;
+  /* text-align: center; */
+  border-color: #f2f2f2;
+
+  height: 20rem;
+  width: 100%;
+  /* border: 1px solid blue; */
+  /* z-index: 5; */
+}
+.productImg {
+  height: 11rem;
+  width: 10rem;
+  border-width: 1px 1px 0px 1px;
+  border-style: solid;
+  border-color: #f2f2f2;
+
+  /* border-color: #f2f2f2; */
+  border-radius: 8px 8px 0px 0px;
+}
+
+.productDiscrp {
+  /* position: absolute; */
+  /* text-align: calc(100px); */
+  /* display: flex;
+  flex-direction: column; */
+
+  /* padding-left: 1rem; */
+  line-height: 5px;
+  border-radius: 0px 0px 8px 8px;
+
+  /* margin-right: -3rem; */
+}
+
+.brandName {
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 1rem;
+}
+.productName {
+  margin-left: 1rem;
+  font: " Poppins";
+  font-weight: 400;
+  font-size: 14px;
+}
+.rateAndDiscount {
+  margin-left: 1rem;
+  margin-top: -0.5rem;
+  display: flex;
+}
+.mrp {
+  text-decoration-line: line-through;
+  color: #999999;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: small;
+}
+.productDiscount {
+  color: #dd5f2d;
+  font-size: small;
+}
+
+.newprice {
+  margin-left: 1rem;
+  margin-top: 1px;
+}
+
+Button {
+  margin-left: 2rem;
+}

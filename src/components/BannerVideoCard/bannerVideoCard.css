@@ -1,0 +1,46 @@
+.BannerVideoCard {
+  position: absolute;
+  bottom: 13%;
+  background-color: #f4f8f0;
+  display: flex;
+  flex-direction: row;
+  color: #333333;
+  align-items: center;
+  left: 10%;
+  width: 20rem;
+  height: 5rem;
+  border-radius: 0.5rem;
+}
+
+.videoCardImage {
+  margin-top: 7px;
+  width: 4rem;
+}
+.text {
+  /* color: #333333; */
+  line-height: 0;
+  margin-left: 5px;
+}
+.shop-flex {
+  display: flex;
+  flex-direction: row;
+  /* align-items: flex-start; */
+}
+
+.cardBtn {
+  /* background-color: aqua; */
+  cursor: pointer;
+}
+
+.originalPrice {
+  text-decoration-line: line-through;
+  color: #999999;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: small;
+}
+
+.discount {
+  color: #999999;
+  font-size: small;
+}
