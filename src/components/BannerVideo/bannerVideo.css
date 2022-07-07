@@ -50,3 +50,8 @@ h2 {
   color: white;
   font-weight: bold;
 }
+
+.videoCardDiv {
+  display: flex;
+  flex-direction: row;
+}

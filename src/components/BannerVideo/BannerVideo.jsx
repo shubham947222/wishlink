@@ -3,15 +3,15 @@ import "./bannerVideo.css";
 import videothumbnail from "../../assets/videothumbnail2.png";
 import BannerVideoCard from "../BannerVideoCard/BannerVideoCard";
 const BannerVideo = () => {
-  const [showPlayButton, setShowPlayButton] = useState(true);
+  // const [showPlayButton, setShowPlayButton] = useState(true);
   const [play, setPlay] = useState(false);
   const videoRef = useRef(null);
 
-  const playPauseSvgHandler = () => {
-    setShowPlayButton(!showPlayButton);
-    videoRef.current.play();
-    setPlay(true);
-  };
+  // const playPauseSvgHandler = () => {
+  //   // setShowPlayButton(!showPlayButton);
+  //   videoRef.current.play();
+  //   setPlay(true);
+  // };
   const videoHandler = () => {
     // console.log(e);
     if (play) {
@@ -34,15 +34,22 @@ const BannerVideo = () => {
         ref={videoRef}
         // no-repeat
       />
-      <div className="playPauseSvg" onClick={playPauseSvgHandler}>
+      {/* <div className="playPauseSvg" onClick={playPauseSvgHandler}>
         {showPlayButton && (
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
             <path d="M40 0a40 40 0 1040 40A40 40 0 0040 0zM26 61.56V18.44L64 40z" />
           </svg>
         )}
-      </div>
+      </div> */}
       <div>
-        {play && <BannerVideoCard />}
+        {play && (
+          // <div className="videoCardDiv">
+          <>
+            <BannerVideoCard />
+            <BannerVideoCard />
+            <BannerVideoCard />
+          </>
+        )}
         {!play && (
           <div className="closet">
             <h2 className="heading">Shop My Closet</h2>

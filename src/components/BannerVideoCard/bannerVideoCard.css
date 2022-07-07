@@ -11,20 +11,23 @@
   height: 5rem;
   border-radius: 0.5rem;
 }
-
+.dressName {
+  margin-left: -2px;
+}
 .videoCardImage {
   margin-top: 7px;
   width: 4rem;
 }
 .text {
-  /* color: #333333; */
+  text-align: left;
   line-height: 0;
   margin-left: 5px;
 }
 .shop-flex {
   display: flex;
   flex-direction: row;
-  /* align-items: flex-start; */
+
+  align-items: center;
 }
 
 .cardBtn {
