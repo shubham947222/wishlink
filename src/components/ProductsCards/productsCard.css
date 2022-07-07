@@ -14,12 +14,12 @@
   /* z-index: 5; */
 }
 .productImg {
-  height: 11rem;
+  height: 10rem;
   width: 10rem;
   border-width: 1px 1px 0px 1px;
   border-style: solid;
   border-color: #f2f2f2;
-
+  margin: 1rem;
   /* border-color: #f2f2f2; */
   border-radius: 8px 8px 0px 0px;
 }
@@ -29,11 +29,13 @@
   /* text-align: calc(100px); */
   /* display: flex;
   flex-direction: column; */
-
+  background: #ffffff;
+  margin-top: -1rem;
+  border: 1px solid #f2f2f2;
   /* padding-left: 1rem; */
   line-height: 5px;
+  width: 10rem;
   border-radius: 0px 0px 8px 8px;
-
   /* margin-right: -3rem; */
 }
 
@@ -68,8 +70,10 @@
 .newprice {
   margin-left: 1rem;
   margin-top: 1px;
+  font-weight: bold;
 }
 
-Button {
+.productButton {
   margin-left: 2rem;
+  margin-bottom: 5px;
 }

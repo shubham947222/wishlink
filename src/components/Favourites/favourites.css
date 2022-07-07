@@ -1,0 +1,19 @@
+.Favourites {
+  background-color: white;
+  width: 400px;
+}
+
+.para {
+  margin-left: 1rem;
+  font-size: 10px;
+  line-height: 0.5px;
+}
+.gallery {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.column {
+  margin-left: 2rem;
+}

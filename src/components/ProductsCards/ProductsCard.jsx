@@ -17,8 +17,10 @@ const ProductsCard = () => {
                 <p className="mrp">{product.price}</p>
                 <p className="productDiscount">({product.discount})</p>
               </div>
-              <p className="newprice">{product.price}</p>
-              <Button text="Shop Now" />
+              <p className="newprice">{product.actualPrice}</p>
+              <div className="productButton">
+                <Button text="Shop Now" />
+              </div>
             </div>
           </div>
         </div>
