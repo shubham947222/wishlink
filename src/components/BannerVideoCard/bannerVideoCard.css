@@ -1,5 +1,5 @@
 .BannerVideoCard {
-  position: absolute;
+  /* position: absolute; */
   bottom: 13%;
   background-color: #f4f8f0;
   display: flex;
@@ -10,6 +10,7 @@
   width: 20rem;
   height: 5rem;
   border-radius: 0.5rem;
+  margin-left: 1rem;
 }
 .dressName {
   margin-left: -2px;
