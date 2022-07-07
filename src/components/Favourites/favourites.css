@@ -44,5 +44,5 @@
   font: "Poppins";
   font-weight: 600;
   border: 1px solid black;
-  /* text-align: center; */
+  cursor: pointer;
 }
