@@ -9,6 +9,7 @@
   align-items: center;
   font-weight: 600;
   cursor: pointer;
+  line-height: 1px;
 }
 
 .btntext {
@@ -16,5 +17,6 @@
 }
 
 a {
+  color: aliceblue;
   text-decoration: none;
 }
