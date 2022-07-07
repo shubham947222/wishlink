@@ -1,22 +1,26 @@
 .Header {
   background-color: white;
-
+  /* font-family: "pPppins"; */
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   height: 8vh;
-  font-family: "poppins";
+  font: "Poppins";
+  font-size: 0.8rem;
   max-width: 450px;
   /* z-index: 1; */
 }
-
+.blueTick {
+  margin-top: 0.5rem;
+}
+.profileImage {
+  margin-top: 0.5rem;
+  margin-right: -1rem;
+}
 .back {
-  height: 15px;
-  /* width: 25px; */
-  margin-left: -3rem;
-  margin-right: 1rem;
 }
 
-.blueTick {
-  height: 25px;
+.search {
+  margin-top: 10px;
+  margin-left: 2rem;
 }

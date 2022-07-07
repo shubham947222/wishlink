@@ -1,8 +1,11 @@
 .CompleteMyLookComp {
   background-color: white;
+  font: "Poppins";
 }
 
 .ArcdName {
+  font: "Poppins";
+
   font-weight: 600;
 }
 /* .CompleteMyLookheading {

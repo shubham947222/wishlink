@@ -23,6 +23,9 @@ const Favourites = ({ heading }) => {
           <img src={Img4} alt="Img4" />
         </div>
       </div>
+      <div className="btnDiv">
+        <button className="favouritBtn">See All Products</button>
+      </div>
     </div>
   );
 };
