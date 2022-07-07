@@ -1,5 +1,4 @@
 .BannerVideoCard {
-  /* position: absolute; */
   bottom: 13%;
   background-color: #f4f8f0;
   display: flex;
@@ -32,7 +31,6 @@
 }
 
 .cardBtn {
-  /* background-color: aqua; */
   cursor: pointer;
 }
 

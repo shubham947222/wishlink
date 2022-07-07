@@ -1,18 +1,11 @@
 .VideoComp {
-  /* position: relative; */
-  /* position: sticky; */
-
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* background-color: red; */
-  /* overflow: hidden; */
-  /* width: 50%; */
-  bottom: 13%;
-  /* z-index: -100; */
 
-  /* height: 25vh; */
+  bottom: 13%;
+
   overflow: scroll;
   max-width: 400px;
 
@@ -40,13 +33,20 @@
 
 h2 {
   position: absolute;
-  bottom: 8%;
-  right: 28%;
+
+  margin-top: -7rem;
+  margin-left: -5rem;
   color: white;
   font-weight: bold;
 }
 
-.videoCards {
+.videocards {
   display: flex;
   flex-direction: row;
+  overflow: scroll;
+  margin-top: -10rem;
+}
+
+.videocards::-webkit-scrollbar {
+  display: none;
 }

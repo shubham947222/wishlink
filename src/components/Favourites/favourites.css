@@ -2,7 +2,6 @@
   font: "Poppins";
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   background-color: white;
   width: 400px;
   min-height: 55rem;
@@ -20,7 +19,6 @@
 }
 .gallery {
   display: flex;
-  /* align-items: center; */
   justify-content: center;
   margin-bottom: 1rem;
 }

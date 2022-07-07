@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 import "./bannerVideo.css";
 import videothumbnail from "../../assets/videothumbnail2.png";
-import BannerVideoCards from "../BannerVideoCards/BannerVideoCards";
+import BannerVideoCard from "../BannerVideoCard/BannerVideoCard";
 // import TaggedProducts from "../TaggedProducts/TaggedProducts";
 const BannerVideo = () => {
   const [showPlayButton, setShowPlayButton] = useState(true);
@@ -48,7 +48,13 @@ const BannerVideo = () => {
           )}
         </div>
         <div>
-          {play && <BannerVideoCards />}
+          {play && (
+            <div className="videocards">
+              <BannerVideoCard />
+              <BannerVideoCard />
+              <BannerVideoCard />
+            </div>
+          )}
           {!play && (
             <div className="closet">
               <h2 className="heading">Shop My Closet</h2>

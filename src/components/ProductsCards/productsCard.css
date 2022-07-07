@@ -2,16 +2,11 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-around; */
   align-items: center;
   justify-content: center;
-  /* text-align: center; */
   border-color: #f2f2f2;
-
   height: 18rem;
   width: 100%;
-  /* border: 1px solid blue; */
-  /* z-index: 5; */
 }
 .productImg {
   height: 10rem;
@@ -20,7 +15,6 @@
   border-style: solid;
   border-color: #f2f2f2;
   margin: 1rem;
-  /* border-color: #f2f2f2; */
   border-radius: 8px 8px 0px 0px;
 }
 
@@ -31,11 +25,9 @@
   background: #ffffff;
   margin-top: -1rem;
   border: 1px solid #f2f2f2;
-  /* padding-left: 1rem; */
   line-height: 2px;
   width: 10rem;
   border-radius: 0px 0px 8px 8px;
-  /* margin-right: -3rem; */
 }
 
 .brandName {
@@ -51,7 +43,6 @@
   font-size: 13px;
 }
 .rateAndDiscount {
-  /* margin-left: 1rem; */
   margin-top: -0.5rem;
   display: flex;
 }
@@ -60,7 +51,6 @@
   color: #999999;
   margin-left: 1rem;
 
-  /* padding-left: 5px; */
   padding-right: 5px;
   font-size: small;
 }
