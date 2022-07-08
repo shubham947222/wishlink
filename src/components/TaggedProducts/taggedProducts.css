@@ -10,8 +10,21 @@
   width: 100%;
   min-height: 28rem;
   z-index: 100;
+  animation-name: taggedProductAnimation;
+  animation-duration: 1s;
+  /* animation-delay: 1s; */
 }
+@keyframes taggedProductAnimation {
+  0% {
+    left: 0px;
+    top: -400px;
+  }
 
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
 .products {
   display: flex;
   justify-content: space-between;
