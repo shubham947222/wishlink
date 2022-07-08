@@ -1,9 +1,11 @@
 .CompleteMyLookComp {
   position: relative;
-  margin-top: -1.2rem;
+  margin-top: -1.4rem;
   z-index: 200;
   background-color: white;
   font: "Poppins";
+  /* padding-top: 1rem; */
+  line-height: 2rem;
 }
 
 .ArcdName {
