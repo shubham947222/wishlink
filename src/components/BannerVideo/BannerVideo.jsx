@@ -51,8 +51,6 @@ const BannerVideo = () => {
           {play && (
             <div className="videocards">
               <BannerVideoCard />
-              <BannerVideoCard />
-              <BannerVideoCard />
             </div>
           )}
           {!play && (

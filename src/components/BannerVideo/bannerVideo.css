@@ -11,12 +11,12 @@
   scroll-snap-type: y mandatory;
 }
 .video {
-  /* width: 100%; */
   width: 400px;
+
   height: 500px;
   object-fit: cover;
-  /* -ms-overflow-style: none;
-  scrollbar-width: none; */
+  /* -ms-overflow-style: none; */
+  /* scrollbar-width: none; */
 }
 
 .VideoComp::-webkit-scrollbar {
@@ -41,10 +41,11 @@ h2 {
 .videocards {
   display: flex;
   flex-direction: row;
-  /* overflow: scroll; */
+  overflow: scroll;
+  width: 400px;
   margin-top: -10rem;
 }
 
-/* .videocards::-webkit-scrollbar {
+.videocards::-webkit-scrollbar {
   display: none;
-} */
+}
