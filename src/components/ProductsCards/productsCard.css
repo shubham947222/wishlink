@@ -5,8 +5,9 @@
   align-items: center;
   justify-content: center;
   border-color: #f2f2f2;
-  height: 18rem;
+  height: 20rem;
   width: 100%;
+  /* border: 1px solid black; */
 }
 .productImg {
   height: 10rem;
@@ -68,5 +69,5 @@
 
 .productButton {
   margin-left: 2rem;
-  margin-bottom: 5px;
+  margin-bottom: 1rem;
 }

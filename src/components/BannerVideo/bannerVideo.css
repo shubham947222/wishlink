@@ -5,18 +5,18 @@
   align-items: center;
   justify-content: center;
   overflow-x: scroll;
-  max-width: 400px;
-  height: 43rem;
+  max-width: 450px;
+  /* max-width: 100%; */
+  height: 42rem;
   top: -5%;
   scroll-snap-type: y mandatory;
 }
+
 .video {
   width: 400px;
 
   height: 500px;
   object-fit: cover;
-  /* -ms-overflow-style: none; */
-  /* scrollbar-width: none; */
 }
 
 .VideoComp::-webkit-scrollbar {
@@ -27,6 +27,7 @@
   position: absolute;
   width: 50px;
   fill: #fff;
+  opacity: 0.9;
   margin-top: -2rem;
 }
 
@@ -49,3 +50,13 @@ h2 {
 .videocards::-webkit-scrollbar {
   display: none;
 }
+
+/* @media only screen and (max-width: 445px) {
+  .VideoComp {
+    margin-left: 1.3rem;
+  }
+  .video {
+    width: 410px;
+  }
+  
+} */

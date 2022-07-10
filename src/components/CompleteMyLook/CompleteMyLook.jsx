@@ -20,7 +20,6 @@ const CompleteMyLook = ({ heading, ArcdName }) => {
               style={{
                 fontWeight: "bold",
                 font: "Poppins",
-
                 fontSize: 13,
                 letterSpacing: 1,
               }}
@@ -30,7 +29,16 @@ const CompleteMyLook = ({ heading, ArcdName }) => {
             </Typography>
           </AccordionSummary>
           <AccordionDetails
-            style={{ width: 400, borderRadius: 10, backgroundColor: "#f2f2f2" }}
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              width: 400,
+              borderRadius: 10,
+              backgroundColor: "#f2f2f2",
+              padding: 0,
+            }}
+            className="Accord"
           >
             <ProductsCards />
           </AccordionDetails>
@@ -53,7 +61,16 @@ const CompleteMyLook = ({ heading, ArcdName }) => {
             </Typography>
           </AccordionSummary>
           <AccordionDetails
-            style={{ width: 400, borderRadius: 10, backgroundColor: "#f2f2f2" }}
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              width: 400,
+              borderRadius: 10,
+              backgroundColor: "#f2f2f2",
+              padding: 0,
+            }}
+            className="Accord"
           >
             <ProductsCards />
           </AccordionDetails>

@@ -12,15 +12,30 @@
   max-width: 450px;
   z-index: 50;
 }
+.back {
+  margin-left: 0.8rem;
+}
 .blueTick {
   margin-top: 0.5rem;
+  margin-right: 3rem;
 }
 .profileImage {
   margin-top: 0.5rem;
-  margin-right: -1rem;
+  margin-right: -0.7rem;
 }
 
 .search {
   margin-top: 10px;
-  margin-left: 2rem;
+  margin-right: 1.2em;
 }
+.Headerheading {
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-top: 1.2rem;
+}
+/* @media only screen and (max-width: 445px) {
+  .Header {
+    margin-left: 1rem;
+    width: 100%;
+  }
+} */
