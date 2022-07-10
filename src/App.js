@@ -10,7 +10,6 @@ function App() {
     <>
       <div className="App">
         <Whatsapp />
-
         <Header />
         <BannerVideo />
         <TaggedProducts heading="Tagged Products (2)" />

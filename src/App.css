@@ -44,7 +44,7 @@ html {
     top: 1rem;
   }
   .Whatsapp {
-    margin-left: -10rem;
+    margin-left: -35rem;
   }
 }
 
@@ -65,7 +65,7 @@ html {
     top: -1.5rem;
   }
   .Whatsapp {
-    margin-left: -9rem;
+    margin-left: -33rem;
   }
   .BannerVideoCard2 {
     margin-left: -2rem;
@@ -87,10 +87,10 @@ html {
     position: relative;
     top: -1.5rem;
   }
-  .Whatsapp {
+  /* .Whatsapp {
     margin-bottom: 10rem;
     margin-left: -9rem;
-  }
+  } */
   .BannerVideoCard2 {
     margin-left: -2rem;
   }
@@ -112,6 +112,6 @@ html {
     top: -1.5rem;
   }
   .Whatsapp {
-    margin-left: 1rem;
+    margin-left: -23rem;
   }
 }
