@@ -1,12 +1,10 @@
 .TaggedProducts {
   /* margin-top: -5px; */
-
   position: relative;
-
   display: flex;
   flex-direction: column;
   color: #333333;
-  margin-top: 31rem;
+  margin-top: 30rem;
   border-radius: 1rem;
   background-color: white;
   width: 100%;
