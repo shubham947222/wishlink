@@ -5,7 +5,14 @@ import Button from "../Button/Button";
 import Carousel from "react-grid-carousel";
 function BannerVideoCard() {
   return (
-    <Carousel cols={2} rows={1} gap={1} hideArrow autoplay={2000}>
+    <Carousel
+      cols={2}
+      rows={1}
+      gap={0}
+      hideArrow
+      autoplay={3000}
+      // scrollSnap={true}
+    >
       <Carousel.Item>
         <div className="BannerVideoCard">
           <div className="left">
