@@ -50,13 +50,3 @@ h2 {
 .videocards::-webkit-scrollbar {
   display: none;
 }
-
-/* @media only screen and (max-width: 445px) {
-  .VideoComp {
-    margin-left: 1.3rem;
-  }
-  .video {
-    width: 410px;
-  }
-  
-} */
