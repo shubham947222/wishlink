@@ -10,7 +10,7 @@ function BannerVideoCard() {
       rows={1}
       gap={0}
       hideArrow
-      autoplay={3000}
+      autoplay={2500}
       // scrollSnap={true}
     >
       <Carousel.Item>
