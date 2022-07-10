@@ -6,22 +6,23 @@
   color: #333333;
   align-items: center;
   left: 10%;
-  width: 20rem;
+  width: 21rem;
   height: 5rem;
   border-radius: 0.5rem;
   margin-left: 1rem;
 }
 .dressName {
-  margin-left: -2px;
+  margin-left: -0.125rem;
 }
 .videoCardImage {
-  margin-top: 7px;
+  margin-top: 0.4375rem;
   width: 4rem;
+  margin-left: 0.3125rem;
 }
 .text {
   text-align: left;
   line-height: 0;
-  margin-left: 5px;
+  margin-left: 0.3125rem;
 }
 .shop-flex {
   display: flex;
@@ -32,17 +33,18 @@
 
 .cardBtn {
   cursor: pointer;
+  margin-left: 1px;
 }
 
 .originalPrice {
   text-decoration-line: line-through;
   color: #999999;
-  padding-left: 5px;
-  padding-right: 5px;
-  font-size: small;
+  padding-left: 0.3125rem;
+  padding-right: 0.3125rem;
+  font-size: 0.8125rem;
 }
 
 .discount {
   color: #ee4d4d;
-  font-size: 12px;
+  font-size: 0.75rem;
 }

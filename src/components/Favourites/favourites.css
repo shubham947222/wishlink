@@ -1,22 +1,22 @@
 .Favourites {
   position: relative;
-
   font: "Poppins";
   display: flex;
   flex-direction: column;
   background-color: white;
-  width: 400px;
-  min-height: 55rem;
+  width: 25rem;
+  min-height: 60rem;
   z-index: 200;
+  /* gap: 1; */
 }
 
 .para {
   color: #666666;
 
   margin-left: 1rem;
-  margin-top: -5px;
-  font-size: 10px;
-  line-height: 0.5px;
+  margin-top: -0.3125rem;
+  font-size: 0.625rem;
+  line-height: 0.03125rem;
   font-family: Poppins;
   font: "Poppins";
   margin-bottom: 1.5rem;
@@ -24,11 +24,21 @@
 .gallery {
   display: flex;
   justify-content: center;
+  /* padding: 1rem; */
+
   margin-bottom: 1rem;
 }
 
 .column {
-  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  /* border: 1px solid red; */
+  /* margin-left: 1.7rem; */
+  padding: 0.8rem;
+}
+.column img {
+  width: 10rem;
 }
 .btnDiv {
   display: flex;
@@ -39,7 +49,7 @@
   width: 15rem;
   height: 2rem;
   padding: 1rem;
-  line-height: 3px;
+  line-height: 0.5rem;
   border-radius: 1rem;
   background-color: #ffffff;
   color: black;
@@ -47,6 +57,7 @@
   font-weight: 600;
   border: 1px solid black;
   cursor: pointer;
+  margin-bottom: 2rem;
 }
 
 /* @media only screen and (max-width: 445px) {

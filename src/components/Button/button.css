@@ -9,7 +9,7 @@
   align-items: center;
   font-weight: 600;
   cursor: pointer;
-  line-height: 1px;
+  line-height: 0.0625rem;
 }
 
 .btntext {

@@ -4,6 +4,7 @@
   z-index: 200;
   background-color: white;
   font: "Poppins";
+
   /* padding-top: 1rem; */
   line-height: 2rem;
 }
@@ -11,10 +12,5 @@
 } */
 .ArcdName {
   font: "Poppins";
-  font-weight: 600;
-}
-
-@media only screen and (max-width: 360px) {
-  /* .CompleteMyLookheading {
-  } */
+  /* font-weight: 600; */
 }

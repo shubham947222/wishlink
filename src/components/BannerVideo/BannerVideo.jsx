@@ -15,7 +15,7 @@ const BannerVideo = () => {
   };
   const videoHandler = () => {
     // console.log(e);
-    if (videoRef.current.fullscreenchange()) {
+    if (videoRef.current.fullScreenChange()) {
       console.log("full screen");
     }
 

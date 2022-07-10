@@ -12,11 +12,11 @@
 .productImg {
   height: 10rem;
   width: 10rem;
-  border-width: 1px 1px 0px 1px;
+  border-width: 0.0625rem 0.0625rem 0rem 0.0625rem;
   border-style: solid;
   border-color: #f2f2f2;
   margin: 1rem;
-  border-radius: 8px 8px 0px 0px;
+  border-radius: 0.5rem 0.5rem 0rem 0rem;
 }
 
 .productDiscrp {
@@ -26,22 +26,22 @@
   background: #ffffff;
   margin-top: -1rem;
   border: 1px solid #f2f2f2;
-  line-height: 2px;
+  line-height: 0.125rem;
   width: 10rem;
-  border-radius: 0px 0px 8px 8px;
+  border-radius: 0px 0px 0.5rem 0.5rem;
 }
 
 .brandName {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 600;
   margin-left: 1rem;
 }
 .productName {
-  margin-top: -2px;
+  margin-top: -0.125rem;
   margin-left: 1rem;
   font: " Poppins";
   font-weight: 400;
-  font-size: 13px;
+  font-size: 0.8125rem;
 }
 .rateAndDiscount {
   margin-top: -0.5rem;
@@ -52,18 +52,18 @@
   color: #999999;
   margin-left: 1rem;
 
-  padding-right: 5px;
-  font-size: small;
+  padding-right: 0.3125rem;
+  font-size: 0.8125rem;
 }
 .productDiscount {
   color: #dd5f2d;
-  font-size: small;
+  font-size: 0.8125rem;
 }
 
 .newprice {
-  padding-top: 5px;
+  padding-top: 0.3125rem;
   margin-left: 1.3rem;
-  margin-top: 1px;
+  margin-top: 0.0625rem;
   font-weight: bold;
 }
 

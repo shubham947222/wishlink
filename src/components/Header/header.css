@@ -2,14 +2,14 @@
   background-color: white;
   position: sticky;
   top: -0.5%;
-  width: 400px;
+  width: 25rem;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  height: 8vh;
+  max-height: 8vh;
   font: "Poppins";
   font-size: 0.8rem;
-  max-width: 450px;
+  max-width: 28.125rem;
   z-index: 50;
 }
 .back {
@@ -25,7 +25,7 @@
 }
 
 .search {
-  margin-top: 10px;
+  margin-top: 0.625rem;
   margin-right: 1.2em;
 }
 .Headerheading {

@@ -16,7 +16,7 @@ const Favourites = ({ heading }) => {
           <img src={Img3} alt="Img3" />
           <img src={Img4} alt="Img4" />
         </div>
-        <div className="column2">
+        <div className="column">
           <img src={Img2} alt="Img2" />
           <img src={Img1} alt="Img1" />
           <img src={Img1} alt="Img1" />

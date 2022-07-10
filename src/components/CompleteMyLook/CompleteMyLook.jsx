@@ -11,7 +11,7 @@ const CompleteMyLook = ({ heading, ArcdName }) => {
     <>
       <div stlye={{}} className="CompleteMyLookComp">
         <h3 className="CompleteMyLookheading">{heading}</h3>
-        <Accordion style={{ width: 400, borderRadius: 10 }}>
+        <Accordion style={{ width: "25rem", borderRadius: "0.625rem" }}>
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel1a-content"
@@ -24,8 +24,7 @@ const CompleteMyLook = ({ heading, ArcdName }) => {
                 letterSpacing: 1,
               }}
             >
-              <div className="ArcdName"></div>
-              {ArcdName}
+              <div className="ArcdName">{ArcdName}</div>
             </Typography>
           </AccordionSummary>
           <AccordionDetails
@@ -33,17 +32,18 @@ const CompleteMyLook = ({ heading, ArcdName }) => {
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
-              width: 400,
-              borderRadius: 10,
+              width: "25rem",
+              borderRadius: "0.625rem",
               backgroundColor: "#f2f2f2",
               padding: 0,
+              height: "22rem",
             }}
             className="Accord"
           >
             <ProductsCards />
           </AccordionDetails>
         </Accordion>
-        <Accordion style={{ width: 400, borderRadius: 10 }}>
+        <Accordion style={{ width: " 25rem", borderRadius: "0.625rem" }}>
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel1a-content"
@@ -52,12 +52,11 @@ const CompleteMyLook = ({ heading, ArcdName }) => {
               style={{
                 fontWeight: "bold",
                 font: "Poppins",
-
                 fontSize: 13,
                 letterSpacing: 1,
               }}
             >
-              {ArcdName}
+              <div className="ArcdName">{ArcdName}</div>
             </Typography>
           </AccordionSummary>
           <AccordionDetails
@@ -65,10 +64,11 @@ const CompleteMyLook = ({ heading, ArcdName }) => {
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
-              width: 400,
-              borderRadius: 10,
+              width: "25rem",
+              borderRadius: "0.625rem",
               backgroundColor: "#f2f2f2",
               padding: 0,
+              height: "22rem",
             }}
             className="Accord"
           >
