@@ -11,7 +11,12 @@ const CompleteMyLook = ({ heading, ArcdName }) => {
     <>
       <div stlye={{}} className="CompleteMyLookComp">
         <h3 className="CompleteMyLookheading">{heading}</h3>
-        <Accordion style={{ width: "25rem", borderRadius: "0.625rem" }}>
+        <Accordion
+          style={{
+            width: "25rem",
+            // borderRadius: "0.625rem" ,
+          }}
+        >
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel1a-content"
@@ -33,8 +38,10 @@ const CompleteMyLook = ({ heading, ArcdName }) => {
               alignItems: "center",
               justifyContent: "center",
               width: "25rem",
-              borderRadius: "0.625rem",
+              // borderRadius: "0.625rem",
+              // borderRadius: "0.125rem",
               backgroundColor: "#f2f2f2",
+              // backgroundColor: "blue",
               padding: 0,
               height: "22rem",
             }}
@@ -43,7 +50,12 @@ const CompleteMyLook = ({ heading, ArcdName }) => {
             <ProductsCards />
           </AccordionDetails>
         </Accordion>
-        <Accordion style={{ width: " 25rem", borderRadius: "0.625rem" }}>
+        <Accordion
+          style={{
+            width: " 25rem",
+            //  borderRadius: "0.625rem"
+          }}
+        >
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel1a-content"
@@ -65,7 +77,7 @@ const CompleteMyLook = ({ heading, ArcdName }) => {
               alignItems: "center",
               justifyContent: "center",
               width: "25rem",
-              borderRadius: "0.625rem",
+              // borderRadius: "0.625rem",
               backgroundColor: "#f2f2f2",
               padding: 0,
               height: "22rem",
