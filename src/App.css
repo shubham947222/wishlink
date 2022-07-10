@@ -44,7 +44,8 @@ html {
     top: 1rem;
   }
   .Whatsapp {
-    margin-left: -35rem;
+    /* color: red; */
+    margin-left: -31rem;
   }
 }
 
@@ -65,7 +66,8 @@ html {
     top: -1.5rem;
   }
   .Whatsapp {
-    margin-left: -33rem;
+    /* color: yellow; */
+    margin-left: -34rem;
   }
   .BannerVideoCard2 {
     margin-left: -2rem;
@@ -87,10 +89,11 @@ html {
     position: relative;
     top: -1.5rem;
   }
-  /* .Whatsapp {
-    margin-bottom: 10rem;
-    margin-left: -9rem;
-  } */
+  .Whatsapp {
+    /* color: blue; */
+    /* margin-bottom: 10rem; */
+    margin-left: -33rem;
+  }
   .BannerVideoCard2 {
     margin-left: -2rem;
   }
@@ -112,6 +115,7 @@ html {
     top: -1.5rem;
   }
   .Whatsapp {
-    margin-left: -23rem;
+    /* color: orange; */
+    margin-left: -33rem;
   }
 }
