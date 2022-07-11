@@ -1,30 +1,23 @@
-import React from "react";
-import Img1 from "../../assets/summerODTD.png";
-import Img2 from "../../assets/AfforableDresses.png";
-import Img3 from "../../assets/summerODTD2.png";
-import Img4 from "../../assets/summerODTD3.png";
+import React, { useState } from "react";
 import "./favourites.css";
+import AllProductsGallery from "../AllProductsGallery/AllProductsGallery";
 const Favourites = ({ heading }) => {
+  const [seeAllProducts, setSeeAllProducts] = useState(false);
   return (
     <div className="Favourites">
       <h3>{heading}</h3>
       <p className="para">Shop all my posts specially curated for you</p>
-      <div className="gallery">
-        <div className="column">
-          <img src={Img1} alt="Img1" />
-          <img src={Img2} alt="Img2" />
-          <img src={Img3} alt="Img3" />
-          <img src={Img4} alt="Img4" />
-        </div>
-        <div className="column">
-          <img src={Img2} alt="Img2" />
-          <img src={Img1} alt="Img1" />
-          <img src={Img1} alt="Img1" />
-          <img src={Img4} alt="Img4" />
-        </div>
-      </div>
+      <AllProductsGallery />
+
+      {seeAllProducts && <AllProductsGallery />}
+
       <div className="btnDiv">
-        <button className="favouritBtn">See All Products</button>
+        <button
+          className="favouritBtn"
+          onClick={() => setSeeAllProducts(!seeAllProducts)}
+        >
+          {seeAllProducts ? "See less Products" : "See all Products"}
+        </button>
       </div>
     </div>
   );
