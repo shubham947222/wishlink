@@ -14,7 +14,10 @@ const Favourites = ({ heading }) => {
       <div className="btnDiv">
         <button
           className="favouritBtn"
-          onClick={() => setSeeAllProducts(!seeAllProducts)}
+          onClick={() => {
+            setSeeAllProducts(!seeAllProducts);
+            window.scroll(0, 1100);
+          }}
         >
           {seeAllProducts ? "See less Products" : "See all Products"}
         </button>
